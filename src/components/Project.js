@@ -19,7 +19,7 @@ export default function Projects() {
             className="w-full h-full"
           >
             <img
-              src="/"
+              src="/invoice-generator.png"
               alt="Project 1"
               className="w-full h-full 
 										bg-cover rounded"
@@ -53,7 +53,7 @@ export default function Projects() {
             className="w-full h-full"
           >
             <img
-              src="/"
+              src="/portfolio.png"
               alt="Project 2"
               className="w-full h-full bg-cover rounded"
             />
