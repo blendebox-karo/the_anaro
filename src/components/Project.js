@@ -75,6 +75,37 @@ export default function Projects() {
           <p>Made with React | Taillwind</p>
         </div>
       </div>
+      <div
+        className="p-10 bg-cyan-200 flex flex-col justify-center items-center
+							gap-5 lg:flex-row max-w-5xl mx-auto shadow transition 
+							hover:shadow-xl hover:scale-[102%] w-full"
+      >
+        <div className="w-80 rounded">
+          <a
+            href="https://appointment-booking-psi.vercel.app/"
+            className="w-full h-full"
+          >
+            <img
+              src="/appointment-booking.png"
+              alt="Project 1"
+              className="w-full h-full 
+										bg-cover rounded"
+            />
+          </a>
+        </div>
+        <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
+          <h2 className="font-bold text-3xl text-center">
+            <a
+              className="hover:underline"
+              href="https://appointment-booking-psi.vercel.app/"
+            >
+              Appointment Booking WebApp
+            </a>
+          </h2>
+          <p>An appointment booking app for scheduling appointments</p>
+          <p>Made with React | Taillwind</p>
+        </div>
+      </div>
     </section>
   )
 }
