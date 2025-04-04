@@ -33,8 +33,8 @@ export default function Projects() {
             </a>
           </h2>
           <p>
-            This is a portfolio project built on Wordpress for a small scale
-            photography business.
+            This is a portfolio project built on Wordpress platform for a small
+            scale photography business.
           </p>
           <p>Made with Wordpress</p>
         </div>
