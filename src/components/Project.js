@@ -13,6 +13,18 @@ export default function Projects() {
 							gap-5 lg:flex-row max-w-5xl mx-auto shadow transition 
 							hover:shadow-xl hover:scale-[102%] w-full"
       >
+        <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
+          <h2 className="font-bold text-3xl text-center">
+            <a
+              className="hover:underline"
+              href="https://zentry-clone-murex-iota.vercel.app/"
+            >
+              Single Page Gaming Web App
+            </a>
+          </h2>
+          <p>An Eye-Catching Gaming App for User Experience</p>
+          <p>Made with React | Taillwind | GSAP</p>
+        </div>
         <div className="w-80 rounded">
           <a
             href="https://zentry-clone-murex-iota.vercel.app/"
@@ -26,17 +38,36 @@ export default function Projects() {
             />
           </a>
         </div>
+      </div>
+      <div
+        className="p-10 bg-cyan-200 flex flex-col justify-center items-center
+							gap-5 lg:flex-row max-w-5xl mx-auto shadow transition 
+							hover:shadow-xl hover:scale-[102%] w-full"
+      >
+        <div className="w-80 rounded">
+          <a href="https://emmaslifepictures.com/" className="w-full h-full">
+            <img
+              src="/emmalife.png"
+              alt="Project 1"
+              className="w-full h-full 
+										bg-cover rounded"
+            />
+          </a>
+        </div>
         <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
           <h2 className="font-bold text-3xl text-center">
             <a
               className="hover:underline"
-              href="https://zentry-clone-murex-iota.vercel.app/"
+              href="https://emmaslifepictures.com/"
             >
-              Single Page Gaming Web App
+              Photography Portfolio Project
             </a>
           </h2>
-          <p>An Eye-Catching Gaming App for User Experience</p>
-          <p>Made with React | Taillwind | GSAP</p>
+          <p>
+            This is a portfolio project built on Wordpress for a small scale
+            photography business.
+          </p>
+          <p>Made with Wordpress</p>
         </div>
       </div>
       <div
